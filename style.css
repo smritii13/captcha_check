@@ -1,0 +1,60 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+}
+body {
+    font-family:"Roboto",sans-serif;
+    background:#f5f5f5;
+    background-color:rgb(255, 192, 190);
+  }
+  
+.login-form {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:90%;
+    max-width:450px;
+    background:#fff;
+    padding:20px 30px;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.1);
+     }
+.login-form .form-title {
+    font-family:"Montserrat",sans-serif;
+    text-align:center;
+    font-size:30px;
+    font-weight:600;
+    margin:20px 0px 30px;
+    color:#801;
+  }
+  .login-form .form-input {
+    margin:10px 0px;
+  }
+  .login-form .form-input label,
+  .login-form .captcha label {
+    display:block;
+    font-size:15px;
+    color:#111;
+    margin-bottom:5px;
+  }
+  .login-form .form-input input {
+    width:100%;
+    padding:10px;
+    border:1px solid #888;
+    font-size:15px;
+  }
+  .login-form .captcha-form {
+    margin:10px 0px;
+  }
+  .login-form .captcha-form {
+    
+    width:100%;
+    padding:10px;
+    border:1px solid #888;
+    font-size:15px;
+  }
+ 
+  
